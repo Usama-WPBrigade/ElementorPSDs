@@ -1,0 +1,120 @@
+.footer_iconbox{
+    transition: 0.3s all;
+}
+.footer_iconbox:hover{
+box-shadow: 0px 1px 12px -1px rgba(255,118,0,0.64);
+-webkit-box-shadow: 0px 1px 12px -1px rgba(255,118,0,0.64);
+-moz-box-shadow: 0px 1px 12px -1px rgba(255,118,0,0.64);
+    
+}
+
+
+/*------- Footer Right Column -----------*/
+.footer-right-iconbox .elementor-widget-container .elementor-icon-box-wrapper .elementor-icon-box-content{
+    margin-top: -10px;
+}
+
+.footer-card-wrapper .footer-card-leftCol{
+    width: calc(100% - 430px)!important;
+}
+.footer-card-wrapper .footer-card-sidebar{
+    width: 430px!important;
+    word-break: break-word;
+}
+.footer-card-wrapper .footer-card-leftCol .elementor-widget-wrap .footer-card-inner .elementor-container{
+    max-width: 100%;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+}
+.footer-card-wrapper .footer-card-leftCol .elementor-widget-wrap .footer-card-inner .elementor-container .footer-card-col{
+    width: 33.33% !important;
+}
+
+.footer-phone-text, .footer-second-phone{
+    font-family: 'Helvetica';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 28px;
+    line-height: 32px;
+    color: #F87E27;
+}
+.footer-phone-text:hover, .footer-second-phone:hover{
+    color: #F87E27;
+    text-decoration-line: underline;
+    text-decoration-style: solid;
+    text-decoration-thickness: 1px;
+    text-decoration-color:white;
+    cursor: pointer;
+}
+.footer-phone-text:hover{
+    color: white;
+}
+.footer-second-phone{
+    color: #ffff;
+}
+.Enbogo{
+    font-size: 12px;
+    line-height: 14px;
+}
+.presenta{
+    color: #F87E27;
+}
+.Correo {
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 17px;
+    letter-spacing: 1.0px;
+}
+
+.footer-email-list{
+    list-style: none;
+}
+.footer-email-list li i{
+    margin-left: -28px
+}
+.footer-email-list li i, .footer-email-list li a{
+    color: white;
+}
+.footer-email-list li i{
+margin-right: 5px
+}
+
+
+
+@media screen and (max-width: 1100px) {
+    .footer-card-wrapper .footer-card-leftCol .elementor-widget-wrap .footer-card-inner .elementor-container .footer-card-col{
+        width: 50% !important;
+    }
+}
+
+@media screen and (max-width: 1024px) {
+    .footer-card-wrapper .footer-card-leftCol{
+        width: 100%!important;
+    }
+    .footer-card-wrapper .footer-card-sidebar{
+        width:100%!important;
+    }
+    .footer-card-wrapper .footer-card-leftCol .elementor-widget-wrap .footer-card-inner .elementor-container .footer-card-col{
+        width: 33.33% !important;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .footer-card-wrapper .footer-card-leftCol .elementor-widget-wrap .footer-card-inner .elementor-container .footer-card-col{
+        width: 50% !important;
+    }
+}
+
+@media screen and (max-width: 520px) {
+    .footer-card-wrapper .footer-card-leftCol .elementor-widget-wrap .footer-card-inner .elementor-container .footer-card-col{
+        width: 100% !important;
+    }
+    .footer-email-list li i, .footer-email-list li{
+        margin-left: -20px;
+    }
+    .footer-email-list li i, .footer-email-list li a{
+        font-size: 12px;
+    }
+
+}

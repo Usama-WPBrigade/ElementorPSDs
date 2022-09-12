@@ -1,0 +1,64 @@
+
+
+:root {
+    --primary: #FEBB3A;
+    --secondary-color: #172933; 
+    --white-color: #fff
+  }
+  .container{
+    max-width: 1200px;
+    padding: 0 15px;
+    margin: 0 auto;
+    overflow-x: hidden;
+}  
+.btn{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 24px;
+    text-transform: uppercase;
+    color: #000000;
+    padding: 18px;
+    text-align: center;
+    vertical-align: middle;
+    background-color: var(--primary);
+    border-radius: 5px;
+    transition: 0.3s all;
+}
+.btn:hover{
+    background-color: var(--secondary-color);
+    color: var(--white-color);
+}
+
+.swiper-button-prev, .swiper-container-rtl .swiper-button-next, .swiper-button-next, .swiper-container-rtl .swiper-button-prev{
+    background: none;
+}
+
+body{
+    overflow-x: hidden!important;
+}
+
+*:focus{
+    outline: none!important;
+    border: none!important;
+}
+.btn-card .elementor-widget-container .elementor-button-wrapper a .elementor-button-content-wrapper span::after{
+    content: url('../img/card-btn-arrow.svg');
+    width: 30px;
+    height: 30px;
+    position: absolute;
+    left: 0;
+    top: 40%;
+/*     transform: translatey(-50%) */
+}
+
+.btn-video .elementor-widget-container .elementor-button-wrapper a .elementor-button-content-wrapper span::after{
+    content: url('../img/btn-video-icon.svg');
+    width: 30px;
+    height: 30px;
+    position: absolute;
+    left: 0;
+    top: 40%;
+/*     transform: translatey(-50%) */
+}

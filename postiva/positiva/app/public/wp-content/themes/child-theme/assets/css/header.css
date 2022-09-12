@@ -1,0 +1,207 @@
+.top-aa{
+    margin-left: 20px;
+    font-weight: 600;
+}
+.ayundalist .elementor-widget-container .elementor-icon-list-items li:first-child{
+    background-color: #FF7500;
+    padding: 5px 8px 10px;
+    position: relative;
+    top: 5px;
+    
+}
+
+
+.main-menu .elementor-widget-container .elementor-nav-menu--main .elementor-nav-menu .menu-item{
+    border-right:1px solid #FFB445;
+    padding: 5px 0;
+}
+
+.top_leftCol .elementor-container .elementor-column:not(:last-child){
+    border-right: 1px solid white; 
+}
+
+.login_list .elementor-widget-container .elementor-icon-list-items .elementor-icon-list-item .elementor-icon-list-icon{
+    background-color: white;
+        display: flex;
+        justify-content: center;
+        align-content: center;
+        width: 25px;
+        height: 25px;
+        border-radius: 50%;
+    }
+
+
+
+    .login_list .elementor-widget-container .elementor-icon-list-items .elementor-icon-list-item:first-child::before{
+        content: '';
+        width: 1px;
+        height:100%;
+        position: absolute;
+        background-color: white;
+            left:-10px;
+        top: 0;
+    }
+    .login_list .elementor-widget-container .elementor-icon-list-items .elementor-icon-list-item:first-child{
+        position: relative;
+    }
+    .login_list .elementor-widget-container .elementor-icon-list-items .elementor-icon-list-item{
+        position: relative;
+        /* background-color: rgba(175,132,132,0.29) */
+    }
+    
+    /* .login_list .elementor-widget-container .elementor-icon-list-items .elementor-icon-list-item::after{
+        content: url('../img/shaped_top.png');
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        width: 55px;
+        height: 12px;
+    
+    } */
+ /* .login_list .elementor-widget-container .elementor-icon-list-items .elementor-icon-list-item:first-child::after{
+        left: 50%;
+    } */
+
+    .login_list .elementor-widget-container .elementor-icon-list-items .elementor-icon-list-item:nth-child(2){
+        display: flex;
+        flex-direction: row-reverse;
+    }
+    
+    
+    .login_list .elementor-widget-container .elementor-icon-list-items .elementor-icon-list-item:nth-child(2) .elementor-icon-list-icon{
+        margin-left: 5px
+    }
+    
+    .login_list .elementor-widget-container .elementor-icon-list-items .elementor-icon-list-item .elementor-icon-list-icon svg{
+        position: relative;
+        top: 50%;
+        left: 30%;
+        transform: translate(-50%, -50%)
+    }
+    
+    .login_list .elementor-widget-container .elementor-icon-list-items .elementor-icon-list-item:nth-child(2) .elementor-icon-list-icon svg{
+        left: 35%;
+    
+    }
+    
+    
+/* .burgericon{
+    display: none;
+} */
+
+
+
+.login_list .elementor-widget-container .elementor-icon-list-items .elementor-icon-list-item:last-child .elementor-icon-list-icon{
+    position: relative;
+}
+
+.login_list .elementor-widget-container .elementor-icon-list-items .elementor-icon-list-item:last-child .elementor-icon-list-icon::after{
+    content: '';
+    width: 8px;
+    height: 8px;
+    background: #07D91E;
+    position: absolute;
+    top: 0px;
+    right: 0;
+    border-radius: 50%;
+    
+}
+.login_list .elementor-widget-container .elementor-icon-list-items .elementor-icon-list-item:last-child .elementor-icon-list-icon{
+    position: relative;
+}
+
+.login_list .elementor-widget-container .elementor-icon-list-items .elementor-icon-list-item:last-child .elementor-icon-list-icon::after{
+    content: '';
+    width: 8px;
+    height: 8px;
+    background: #07D91E;
+    position: absolute;
+    top: 0px;
+    right: 0;
+    border-radius: 50%;
+    
+}
+.overflowclass{
+    overflow: hidden;
+}
+
+
+
+@media screen and (min-width: 768px) {
+    .menu-header{
+        display: block!important;
+    }
+    .overflowclass{
+        overflow: auto!important;
+    }
+}
+@media screen and (max-width: 767px) {
+    .burgericon{
+        width: 25px;
+        height: 20px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        cursor: pointer;
+        background-color: transparent;
+        border: none;
+        outline: none;
+        padding: 0;
+        float: right;
+    }
+    .burgericon .menu_bar{
+        width: 100%;
+        height: 2px;
+        background-color: #112b36;
+        transition: all 0.5s ease-in-out;
+    }
+    .openmenu .menu_bar1{
+        transform: rotate(-45deg) translate(0px, 6px);
+    }
+    .openmenu .menu_bar2{
+        opacity: 0;
+    }
+    
+    .openmenu .menu_bar3{
+        transform: rotate(45deg) translate(-6px, -13px);
+    }
+}
+
+@media screen and (max-width: 1024px) {
+    .top_leftCol .elementor-container .elementor-column:not(:last-child){
+        border-right: none; 
+    }
+    .login_list .elementor-widget-container .elementor-icon-list-items .elementor-icon-list-item:first-child{
+    display: none;
+    }
+
+}
+@media screen and (max-width: 767px) {
+    .top-aa{
+    margin-left: 10px;
+    }
+    .menu-header{
+        display: none;
+        position: fixed;
+        height: 100vh;
+        top: 165px;
+        left: 0;
+        bottom: 0;
+        z-index: 100;
+            
+    }
+
+    .logo-section-wrapper{
+        position: relative;
+        
+    }
+    .main-menu .elementor-widget-container .elementor-nav-menu--main .elementor-nav-menu{
+        width: 100%;
+    }
+    .main-menu .elementor-widget-container .elementor-nav-menu--main .elementor-nav-menu .menu-item{
+        display: block;
+        border-right:none;
+        width: 100%;
+    }
+   
+}

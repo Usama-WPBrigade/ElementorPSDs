@@ -1,0 +1,69 @@
+.footer-icon-list .elementor-widget-container .elementor-icon-list-items .elementor-icon-list-item a{
+display: flex;
+align-items: flex-start;
+justify-content: flex-start;
+}
+
+.footer-icon-list .elementor-widget-container .elementor-icon-list-items .elementor-icon-list-item a .elementor-icon-list-icon{
+    margin-top: 5px
+}    
+
+.footer-icon-list .elementor-widget-container .elementor-icon-list-items .elementor-icon-list-item:hover .elementor-icon-list-text{
+    color: var(--primary);
+}
+
+
+
+footer .copyright-wrapper{
+    padding-top: 37px;
+    margin-top: 37px;
+    border-top:1px solid #9eb2bda6;
+    overflow: hidden;
+   
+}
+.copyright-links{
+    margin-top: 10px;
+}
+.copyright-links ul li{
+    display: inline-block;
+    position: relative;
+}
+.copyright-links ul li:not(:last-child){
+    margin-right: 50px;
+}
+.copyright-links ul li:not(:last-child)::after{
+    content: '';
+    width: 2px;
+    height: 100%;
+    background-color: var(--secondary-color);
+    position: absolute;
+    right: -30px;
+    top: 0;
+}
+.footer-INcol ul li{
+    display: block !important;
+}
+/*-------------- Footer Icon Column ---------------*/
+
+
+
+/*toolTip*/
+.e-hotspot__tooltip{
+    max-height: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px!important;
+}
+.e-hotspot__tooltip::after{
+    position: absolute;
+    content: '';
+    top: 100%;
+    left: 50%;
+    transform: translate(-50%, -10%);
+    border: 7px;
+    border-style: solid;
+    border-color: var(--secondary-color) transparent transparent transparent;
+    
+}
+

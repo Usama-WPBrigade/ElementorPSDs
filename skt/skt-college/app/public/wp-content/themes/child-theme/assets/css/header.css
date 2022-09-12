@@ -1,0 +1,95 @@
+
+/*************** top Bar  ******************/
+.search-icon-btn .elementor-widget-container .elementor-button-wrapper{
+    width: 20px;
+    height: 20px;
+    background-image: url('../img/topbar-search-icon.png');
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;   
+}
+
+/************ Topbar Form *********/
+.top-search-form .elementor-widget-container .elementor-form input{
+    height: 50px;
+}
+.top-search-form .elementor-widget-container .elementor-form .elementor-form-fields-wrapper .elementor-field-group button{
+    height: 50px;
+}
+
+.top-search-form-wrapper{
+    position: absolute;
+    top: 35px;
+    min-width: 330px;
+    z-index: 200!important;
+    display: none;
+}
+
+
+/*contact popup form*/
+
+.popup-conttact-form .elementor-widget-container form .elementor-form-fields-wrapper .elementor-field-group label{
+    position: absolute;
+    top: 5px;
+    left: 25px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 10px;
+    line-height: 15px;
+    color: #8D8D8D;
+}
+
+.popup-conttact-form .elementor-widget-container form .elementor-form-fields-wrapper .elementor-field-group input{
+    min-height: 60px!important;
+    background-color: #F5F5F5;
+    padding-top:10px;
+    padding-bottom: 10px
+}
+.popup-conttact-form .elementor-widget-container form .elementor-form-fields-wrapper .elementor-field-group select{
+    border: none;
+    height: 50px;
+    padding: 0
+}
+.popup-conttact-form .elementor-widget-container form .elementor-form-fields-wrapper .elementor-field-type-select .elementor-select-wrapper{
+    border-top: 1px solid #B8B8B8;
+    padding: 0px 15px!important;
+}
+    
+
+
+.popup-conttact-form .elementor-widget-container form .elementor-form-fields-wrapper .elementor-field-group .elementor-field{
+    min-height: 60px!important;
+    border-radius: 0px;
+    background-color: #F5F5F5;
+    padding-top:10px;
+    padding-bottom: 10px 
+}
+.popup-conttact-form .elementor-widget-container form .elementor-form-fields-wrapper .elementor-field-group button{
+    min-height: 55px;
+    margin-top: 50px;
+    
+}
+.popup-conttact-form .elementor-widget-container form .elementor-form-fields-wrapper .elementor-field-group button:hover{
+    background-color: #1B2C36;
+}
+
+
+
+.mobile-main-menu nav{
+    left: -15px!important;
+    overflow: hidden;
+    height: 100vh;
+    overflow-y: auto;
+}
+.mobile-main-menu nav ul li a{
+    justify-content: space-between;
+}
+
+
+
+@media screen and (max-width:767px){
+    .mobile-main-menu nav{
+        left: -8px!important;
+    }
+}

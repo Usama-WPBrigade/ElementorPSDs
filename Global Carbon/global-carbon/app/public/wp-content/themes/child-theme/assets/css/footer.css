@@ -1,0 +1,29 @@
+.footer-upper-inner::after{
+    content: '';
+    width: 100vw;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    right: 100%;
+    background-color: inherit;
+}
+
+.footer-upper-inner{
+    max-width: 850px
+    
+}
+
+.footer-logos-section .elementor-element:not(:last-child)::after{
+    content: '';
+    position: absolute;
+    height: 100%;
+    width: 1px;
+    background-color: rgba(255,255,255,0.28);
+    top: 0;
+    right: 0; 
+}
+@media screen and (max-width:767px) {
+.footer-upper-inner::after{
+    display: none;
+}
+}

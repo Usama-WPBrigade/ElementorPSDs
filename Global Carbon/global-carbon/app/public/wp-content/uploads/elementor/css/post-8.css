@@ -1,0 +1,22 @@
+.elementor-kit-8{--e-global-color-primary:#002E5F;--e-global-color-secondary:#53B94D;--e-global-color-text:#7A7A7A;--e-global-color-accent:#61CE70;--e-global-typography-primary-font-family:"Roboto";--e-global-typography-primary-font-weight:600;--e-global-typography-secondary-font-family:"Roboto Slab";--e-global-typography-secondary-font-weight:400;--e-global-typography-text-font-family:"Roboto";--e-global-typography-text-font-weight:400;--e-global-typography-accent-font-family:"Roboto";--e-global-typography-accent-font-weight:500;}.elementor-kit-8 button,.elementor-kit-8 input[type="button"],.elementor-kit-8 input[type="submit"],.elementor-kit-8 .elementor-button{font-family:"Segoe UI", Sans-serif;font-size:15px;font-weight:400;text-transform:uppercase;line-height:20px;}.elementor-kit-8 button:hover,.elementor-kit-8 button:focus,.elementor-kit-8 input[type="button"]:hover,.elementor-kit-8 input[type="button"]:focus,.elementor-kit-8 input[type="submit"]:hover,.elementor-kit-8 input[type="submit"]:focus,.elementor-kit-8 .elementor-button:hover,.elementor-kit-8 .elementor-button:focus{background-color:var( --e-global-color-primary );}.elementor-section.elementor-section-boxed > .elementor-container{max-width:1140px;}.e-container{--container-max-width:1140px;}.elementor-widget:not(:last-child){margin-bottom:20px;}.elementor-element{--widgets-spacing:20px;}{}h1.entry-title{display:var(--page-title-display);}.site-header{padding-right:0px;padding-left:0px;}@media(max-width:1024px){.elementor-section.elementor-section-boxed > .elementor-container{max-width:1024px;}.e-container{--container-max-width:1024px;}}@media(max-width:767px){.elementor-section.elementor-section-boxed > .elementor-container{max-width:767px;}.e-container{--container-max-width:767px;}}/* Start Custom Fonts CSS */@font-face {
+	font-family: 'Segoe UI';
+	font-style: normal;
+	font-weight: 700;
+	font-display: auto;
+	src: url('http://global-carbon.local/wp-content/uploads/2022/09/Segoe-UI-Bold-700.woff') format('woff');
+}
+@font-face {
+	font-family: 'Segoe UI';
+	font-style: normal;
+	font-weight: 400;
+	font-display: auto;
+	src: url('http://global-carbon.local/wp-content/uploads/2022/09/Segoe-UI-Regular-400.woff') format('woff');
+}
+@font-face {
+	font-family: 'Segoe UI';
+	font-style: normal;
+	font-weight: 600;
+	font-display: auto;
+	src: url('http://global-carbon.local/wp-content/uploads/2022/09/Segoe-UI-Semibold-600.woff') format('woff');
+}
+/* End Custom Fonts CSS */

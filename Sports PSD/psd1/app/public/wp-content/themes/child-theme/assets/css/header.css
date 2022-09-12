@@ -1,0 +1,202 @@
+
+.top_btn .elementor-widget-container .elementor-button-wrapper .elementor-button-link{
+    background-image: url('../img/pattern-bg.png');
+    background-position: center;
+}
+
+.mobileBtn_top .elementor-widget-container  .elementor-button-wrapper .elementor-button-link{
+    background-image: url('../img/pattern-bg.png');
+    background-position: center;
+
+}
+
+
+.topBtns-wrapper > .elementor-widget-wrap .top_btn:not(:last-child){
+    margin-right: 10px;
+}
+.top_btn .elementor-widget-container .elementor-button-wrapper .elementor-button-link span{
+    transform: skew(6deg)!important
+}
+
+.menu-col .elementor-widget-wrap .elementor-widget-container .elementor-nav-menu .menu-item{
+    padding:5px 10px;
+    /* margin: 0 3px; */
+    transform: skew(-15deg)
+    
+}
+.menu-col .elementor-widget-wrap .elementor-widget-container .elementor-nav-menu .menu-item:hover{
+    background-color: #12803D;
+    background-image: url('../img/pattern-bg.png');
+}
+
+.menu-col .elementor-widget-wrap .elementor-widget-container .elementor-nav-menu .menu-item .elementor-item{
+        transform: skew(15deg)
+}
+.menu-col .elementor-widget-wrap .elementor-widget-nav-menu .elementor-widget-container .elementor-nav-menu--main .elementor-nav-menu .current-menu-item{
+    background-color: #12803D;
+    background-image: url('../img/pattern-bg.png');
+}
+
+.search-col .elementor-widget-wrap .elementor-widget-container .elementor-search-form .elementor-search-form__container{
+    border-radius: none;
+}
+.search-col .elementor-widget-wrap .elementor-widget-container .elementor-search-form .elementor-search-form__container input{
+        background-color: #012c1f;
+        background-image: url("../img/pattern-bg.png");
+}
+.search-col .elementor-widget-wrap .elementor-widget-container .elementor-search-form .elementor-search-form__container .elementor-search-form__submit{
+        background:none;
+        position: absolute;
+        right: 0;
+        top: 50%;
+        transform: translatey(-50%);
+}
+    .search-field .elementor-search-form input[type="search"]::-webkit-search-decoration,
+    .search-field .elementor-search-form input[type="search"]::-webkit-search-cancel-button,
+    .search-field .elementor-search-form input[type="search"]::-webkit-search-results-button,
+    .search-field .elementor-search-form input[type="search"]::-webkit-search-results-decoration {
+        -webkit-appearance:none;
+        background-image: url('../img/my-account-close-icon.svg');
+        position: absolute;
+        /* border: 1px solid white; */
+        right: -18px;
+        background-repeat: no-repeat;
+        width: 25px;
+        height: 25px;
+        top: 15px;
+        cursor: pointer;
+        transition: 0.3s all;
+}
+
+    .hide{
+        display: none!important;
+    }
+  
+
+
+    .notificationClose-btn .elementor-widget-container .elementor-button-wrapper .elementor-button-link::after{
+        content:url('../img/x-mark.png')
+    }
+
+
+    .burger_icon .elementor-widget-container .elementor-button-wrapper{
+        position: relative;
+    }
+    .burger_icon .elementor-widget-container .elementor-button-wrapper .elementor-button-link::after{
+        content: url('../img/burger.svg');
+      
+    }
+
+    .overflowclass{
+        overflow: hidden;
+    }
+
+    
+    .notificationClose-btn {
+        position: absolute;
+            top: 50%;
+            transform: translatey(-50%);
+            right: 10px;
+    }
+
+    
+    @media screen and (min-width:768px) {
+       .menu-pop{
+           display: none!important;
+       }
+       .header-section-wrapper{
+           display: block!important;
+       }
+       .overflowclass{
+        overflow: auto;
+    }
+    }
+  
+    @media screen and (max-width:767px) {
+      
+   .menu-pop  .elementor-widget-wrap .elementor-widget-container .elementor-nav-menu .menu-item{
+        padding:5px 10px;
+        margin: 0 3px;
+        transform: skew(0deg);
+        clip-path: polygon(0 0, 100% 0, 91% 100%, 0% 100%);
+        
+    }
+   .menu-pop  .elementor-widget-wrap .elementor-widget-container .elementor-nav-menu .menu-item:hover{
+        background-color: #12803D;
+        background-image: url('../img/pattern-bg.png');
+    }
+
+   .menu-pop  .elementor-widget-wrap .elementor-widget-container .elementor-nav-menu .menu-item .elementor-item{
+            transform: skew(0deg)
+    }
+   .menu-pop  .elementor-widget-wrap .elementor-widget-nav-menu .elementor-widget-container .elementor-nav-menu--main .elementor-nav-menu .current-menu-item{
+        background-color: #12803D;
+        background-image: url('../img/pattern-bg.png');
+    }
+
+
+    .burgericon{
+        width: 25px;
+        height: 20px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        cursor: pointer;
+        background-color: transparent;
+        border: none;
+        outline: none;
+        padding: 0;
+        float: right;
+    }
+    .burgericon .menu_bar{
+        width: 100%;
+        height: 2px;
+        background-color: #fff;
+        transition: all 0.5s ease-in-out;
+    }
+    .openmenu .menu_bar1{
+        transform: rotate(-45deg) translate(0px, 6px);
+    }
+    .openmenu .menu_bar2{
+        opacity: 0;
+    }
+    
+    .openmenu .menu_bar3{
+        transform: rotate(45deg) translate(-6px, -13px);
+    }
+   
+    .elementor-widget:not(:last-child){
+        margin-bottom: 0!important
+    }
+    
+
+    .logo-section-wrapper{
+        position: relative;
+    } 
+    header{
+        width: 100%!important;
+    }
+    .header-section-wrapper{
+        display: none;
+        height: 100vh;
+        /* width: 100%; */
+    }
+
+    
+    .main-menu .elementor-widget-container .elementor-nav-menu{
+        width: 100%;
+    }
+    
+    .menu-col .elementor-widget-wrap .elementor-widget-container .elementor-nav-menu .menu-item{
+        transform: skew(0deg);
+        display: block;
+        width: 100%;
+    }
+    
+    .menu-col .elementor-widget-wrap .elementor-widget-container .elementor-nav-menu .menu-item .elementor-item{
+        transform: skew(0deg);
+        clip-path: polygon(0 0, 100% 0, 88% 100%, 0% 100%);
+    
+    }
+    }
+
